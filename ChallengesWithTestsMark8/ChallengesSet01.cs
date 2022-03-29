@@ -14,36 +14,37 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
-        }
+        }//testpass-done
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
-        }
+            return minuend - subtrahend;
+        }//testpass-done
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
-        }
+            return number1 + number2;
+        } //testpass-done
 
-        public int GetSmallestNumber(int number1, int number2)
+        public int GetSmallestNumber(int number1, int number2)//testpass-done
         {
-            throw new NotImplementedException();
+           return (number1 < number2)?  number1 :  number2;
+            
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            return factor1 * factor2;
+        }//testpass-done
+
+        public string GetGreeting(string nameOfPerson)//testpass-done
+        {
+            return $"Hello!{nameOfPerson}";
         }
 
-        public string GetGreeting(string nameOfPerson)
+        public string GetHey()//testpass-done
         {
-            throw new NotImplementedException();
-        }
-
-        public string GetHey()
-        {
-            throw new NotImplementedException();
+            return "HEY!";
         }
     }
 }
